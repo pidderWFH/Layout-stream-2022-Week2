@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&family=Source+Sans+Pro:wght@600&display=swap');
+
+body{
+    font-family: "Roboto", "sans-serif";
+    font-style: italic;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.bg-img{
+    
+    background: url("./images/banner.png") no-repeat;
+    background-position: center;
+    border: 1px solid #707070;
+}
+.bg-black{
+    background-color: #000000;
+}
+.white{
+    color: #FFFFFF;
+}
+.mt-2{
+    margin-top: 16px;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.mr-3{
+    margin-right: 24px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-5{
+    margin-bottom: 40px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mt-7{
+    margin-top: 56px;
+}
+.mb28{
+    margin-bottom: 28px;
+}
+.mb68{
+    margin-bottom: 68px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container{
+    width: 304px;
+    height: 342px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 308px;
+    margin-bottom: 308px;
+}
+.header-container h1{
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 106px;
+}
+.header-container .text{
+    
+    font-size: 24px;
+    line-height: 42px;
+}
+.header-container p{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.about-container{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+.about-container h2{
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 40px;
+}
+.about-container img{
+    margin-bottom: 20px;
+}
+.about-container p{
+    font-size: 24px;
+    line-height: 42px;
+}
+.lh-36{
+    line-height: 36px;
+}
+.lh-42{
+    line-height: 42px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.brand-container{
+    padding-top: 56px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+.brand-container h2{
+
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 12px;
+}
+.brand-container p{
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+.works-container{
+    padding-top: 56px;
+    padding-bottom: 144px;
+    text-align: center;
+}
+.works-container h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+..works-container p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.works-card{
+    min-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+.footer h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+.footer p{
+    font-size: 24px;
+    line-height: 36px;
+}
